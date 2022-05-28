@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'quiz',
+    'QuestionGenerator',
     'rest_framework',
 ]
 
@@ -80,9 +80,9 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testdb',
+        'NAME': 'qgdb',
         'USER': 'root',
-        'PASSWORD':'[Your Password]',
+        'PASSWORD':'Roguohry1!',
         'HOST':'localhost',
         'PORT':'3306'
     }
